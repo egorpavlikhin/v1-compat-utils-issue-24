@@ -1,0 +1,13 @@
+diff --git a/dist/index.mjs b/dist/index.mjs
+index 83f9d0e34075a7e8f153b30701e86ae248173075..ca8c1926a11bdea306c4edb010567ff8f830c1af 100644
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -2,7 +2,7 @@
+ import fs from "fs";
+ import path from "path";
+ import minimatch from "minimatch";
+-import { createRouteId } from "@remix-run/dev/dist/config/routes";
++import { createRouteId } from "@remix-run/dev/dist/config/routes.js";
+ var paramPrefixChar = "$";
+ var escapeStart = "[";
+ var escapeEnd = "]";
